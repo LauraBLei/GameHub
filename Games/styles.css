@@ -1,0 +1,213 @@
+@import url(/Header.css);
+@import url(/Hover.css);
+@import url(/Footer.css);
+@import url(/Media.css);
+
+:root{
+    --blue: #1B203D;
+    --white: #FFFFFF;
+    --black: #000000;
+    --yellow: #FBBD1F;
+    --faded-white: rgba(255, 255, 255, 0.5);
+    --faded-white20: rgba(255, 255, 255, 0.2);
+    --grey: 8D8F9E;
+}
+
+body{
+    background-color: var(--blue);
+    font-family: 'League Spartan', sans-serif; ;
+    margin: 0;
+    padding: 0;
+    }
+
+
+
+
+/* This is the category section */
+
+.category-container{
+    display: flex;
+    justify-content: center;
+}
+
+.category-box{
+    display: flex;
+    justify-content: center;
+    max-width: 1330px;
+}
+
+details{
+    padding: 0;
+    margin:2% 0 0;
+    border-radius: 10px;
+    font-family: 'League Spartan', sans-serif; ;
+    font-size:35px;
+
+}
+
+details:not(:last-child) {
+    margin-right: 35px;
+}
+
+
+summary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--faded-white);
+    cursor: pointer;
+    height: 80px ;
+    width: 402px ;
+    z-index: 3;
+    list-style: none;
+    text-align:center;
+    font-size: 35px;
+    border-radius: 10px;
+    margin: 0;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.list-container{
+    background-color: var(--grey);
+    position: absolute;
+    z-index: 2;
+    box-shadow: var(--black);
+    border-radius: 10px;
+    position: absolute;
+    width: 402px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0 5 ;
+    text-align: center;
+}
+
+
+
+/* this is the games section */
+
+Main{
+    background-color: var(--blue);
+    font-family: 'League Spartan', sans-serif; ;
+    margin: 0;
+    padding: 0;
+
+}
+
+.headline{
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+
+
+}
+
+.view-all {
+    font-family: 'League Spartan', sans-serif; ;
+    font-size: 20px;
+    width: 109;
+    height: 31;
+    background-color: var(--faded-white20);
+    border-radius: 10px;
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.new-games{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    justify-content: center;
+}
+
+.gamelist{
+    margin: 0px 0px 20px;
+    display: flex;
+    /* position: relative; */ 
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    border:0;
+}
+
+
+
+.picture{
+    border-radius: 10px;
+}
+
+.pic-information{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: var(--white);
+    font-size: 25px;
+}
+
+.game-container{
+    display: flex;
+    justify-content: center;
+    margin:2%;
+}
+
+
+.trending{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    justify-content: center;
+}
+
+.recommended{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    justify-content: center;
+    margin: 0 0 5%;
+}
+
+
+
+
+/* This is the responsive coding section  */
+@media screen and (max-width:1324px){
+    summary{
+        height: 50px ;
+        width: 200px ;
+    }
+
+    .list-container{
+        font-size: 20px;
+        width: 200px;
+        top:25%;
+    }
+}
+
+@media screen and (max-width:872px){
+    summary{
+        height: 40px ;
+        width: 100px ;
+        font-size: 20px;
+    }
+
+    .list-container{
+        font-size: 15px;
+        width: 100px;
+        top:25%;
+        text-align: left;
+        
+    }
+        
+
+}

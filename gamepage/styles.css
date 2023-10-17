@@ -1,0 +1,117 @@
+@import url(/Header.css);
+@import url(/Footer.css);
+@import url(/Hover.css);
+@import url(/Media.css);
+
+:root{
+    --blue: #1B203D;
+    --white: #FFFFFF;
+    --black: #000000;
+    --yellow: #FBBD1F;
+    --faded-white: rgba(255, 255, 255, 0.5);
+    --faded-white20: rgba(255, 255, 255, 0.2);
+}
+body{
+    background-color: var(--blue);
+    font-family: 'League Spartan', sans-serif; ;
+    margin: 0;
+    padding: 0;
+    }
+
+
+
+/* This is the main section */
+
+.product-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image-container{
+    margin:2%;
+}
+
+.information-container{
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 685;
+    display: flex;
+    justify-content: center;
+}
+
+.informationbutton{
+    width: 683px;
+    height: 105;
+    font-size: 45px;
+    border-radius: 10px;
+    border-color: var(--yellow);
+    background-color: var(--faded-white);
+    margin: 1%;
+    cursor: pointer;
+}
+
+.informationbutton:hover{
+    background-color: var(--faded-white20);
+}
+
+.cartbutton{
+    width: 261px;
+    height: 105;
+    border-radius: 10px;
+    border-color: var(--yellow);
+    background-color: var(--yellow);
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.buybutton{
+    width: 401px;
+    height: 105px;
+    font-size: 60px;
+    border-radius: 10px;
+    border-color: var(--yellow);
+    background-color: var(--yellow);
+    cursor: pointer;
+    
+}
+
+.cart-buy{
+    width: 685;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+}
+
+.buybutton:hover {
+    background-color: var(--faded-white);
+    
+}
+.cartbutton:hover{
+    background-color: var(--faded-white);
+    
+}
+
+img{
+    border-radius: 20px;
+}
+
+.price{
+    font-size: 50px;
+    width: 683;
+    text-align: right;
+    color: var(--white);
+}
+
+
+
+/* This is the responsive coding section  */
+@media screen and (max-width:1324px){
+}
+        
+
+
+@media screen and (max-width:872px){
+
+
+}

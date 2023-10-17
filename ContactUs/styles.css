@@ -1,0 +1,185 @@
+@import url(/Header.css);
+@import url(/Footer.css);
+@import url(/Hover.css);
+@import url(/Media.css);
+
+:root{
+    --blue: #1B203D;
+    --white: #FFFFFF;
+    --black: #000000;
+    --yellow: #FBBD1F;
+    --faded-white: rgba(255, 255, 255, 0.5);
+    --faded-white20: rgba(255, 255, 255, 0.2);
+}
+body{
+    background-color: var(--blue);
+    font-family: 'League Spartan', sans-serif; ;
+    margin: 0;
+    padding: 0;
+    }
+
+
+/* This is the main section */
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contactus{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0%;
+}
+
+summary{
+    width: 800px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--faded-white);
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+details:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.summary-text {
+    background-color: var(--faded-white);
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 2%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: left;
+}
+
+.question {
+    list-style: none;
+    color: var(--black);
+    width: 100%;
+    margin: 10%;
+}
+
+a{
+    color: var(--black);
+    margin-bottom: 5%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 6% 0;
+}
+
+input {
+    width: 540px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+
+textarea{
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom:5% ;
+}
+
+.send{
+    width: 260px;
+    height: 60px;
+    font-size: 30px ;
+    margin: 0 25%;
+    border-radius: 10px;
+    background-color: var(--yellow);
+    font-weight: bold;
+}
+
+.send:hover{
+    color: var(--black);
+    background-color: var(--faded-white);
+    border-color: var(--yellow);
+}
+.summary-form{
+    background-color: var(--faded-white);
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 2%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+}
+
+
+
+/* This is the responsive coding section  */
+@media screen and (max-width:1324px){
+    .summary-form{
+        font-size: 25px;
+    }
+    .send{
+        width: 140px;
+        font-size: 25px ;
+        
+    }
+    summary{
+        width: 400px;
+        height: 80px;
+        font-size: 35px;
+    }
+    .summary-text {
+        font-size: 20px;
+    }
+    ul{
+        padding: 0 5%;
+    }
+
+    input {
+        width: 250px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:872px){   
+    .summary-form{
+        font-size: 20px;
+    }
+    .send{
+        width: 100px;
+        font-size: 20px ;
+        
+    }
+    summary{
+        width: 300px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .summary-text {
+        font-size: 20px;
+    }
+    ul{
+        padding: 0 5%;
+    }
+
+    input {
+        width: 180px;
+        height: 25px;
+    }
+}
