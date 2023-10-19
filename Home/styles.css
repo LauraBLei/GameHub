@@ -220,50 +220,6 @@ Main{
 }
 
 
-/* this is the footer section */
-.footer-container{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    column-gap: 250px;
-    max-width: 1330px;
-    
-}
-footer{
-    background-color: var(--faded-white);
-    display: flex;
-    justify-content: center;
-}
-.feature-follow{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
-    gap:20px;
-}
-
-.feature-aboutus{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 45px;
-
-}
-
-.feature-contactus{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
-    gap:25px;
-
-}
-
-.maintext{
-    font-size: 45px;
-}
-
 /* This is the responsive coding section  */
 
 @media screen and (max-width:1324px){

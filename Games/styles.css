@@ -2,24 +2,7 @@
 @import url(/Hover.css);
 @import url(/Footer.css);
 @import url(/Media.css);
-
-:root{
-    --blue: #1B203D;
-    --white: #FFFFFF;
-    --black: #000000;
-    --yellow: #FBBD1F;
-    --faded-white: rgba(255, 255, 255, 0.5);
-    --faded-white20: rgba(255, 255, 255, 0.2);
-    --grey: 8D8F9E;
-}
-
-body{
-    background-color: var(--blue);
-    font-family: 'League Spartan', sans-serif; ;
-    margin: 0;
-    padding: 0;
-    }
-
+@import url(/default.css);
 
 
 

@@ -77,7 +77,21 @@
     color: var(--white);
     z-index:2;
 }
+.cart{
+    color: var(--white);
+}
 
+.cart:visited{
+    color: var(--white);
+}
+
+.profile{
+    color: var(--white);
+}
+
+.profile:visited{
+    color: var(--white);
+}
 
 .cart:hover{
     color: var(--yellow);
