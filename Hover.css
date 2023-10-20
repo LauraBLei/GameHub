@@ -1,29 +1,29 @@
-:root{
-    --blue: #1B203D;
-    --white: #FFFFFF;
-    --black: #000000;
-    --yellow: #FBBD1F;
-    --faded-white: rgba(255, 255, 255, 0.5);
-    --faded-white20: rgba(255, 255, 255, 0.2);
+:root {
+  --blue: #1b203d;
+  --white: #ffffff;
+  --black: #000000;
+  --yellow: #fbbd1f;
+  --faded-white: rgba(255, 255, 255, 0.5);
+  --faded-white20: rgba(255, 255, 255, 0.2);
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
-a:hover{
-    color: var(--yellow);
-}
-
-button:hover{
-    color: var(--yellow)
+a:hover {
+  color: var(--yellow);
 }
 
-summary:hover{
-    color: var(--yellow);
-    cursor: pointer;
+button:hover {
+  color: var(--yellow);
 }
 
-li:hover{
-    color: var(--yellow);
+summary:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+li:hover {
+  color: var(--yellow);
 }

@@ -97,6 +97,7 @@ input::placeholder{
     display: flex;
     align-items: center;
     column-gap: 2%;
+    margin: 0 0 0 -10%;
 }
 
 .paymentoptions{
@@ -156,7 +157,7 @@ input::placeholder{
     .summary{
         width: 350px;
         height: 350px;
-        margin: 0 -70px 0 0;
+        margin: 0 0 0 -2%;
     }
     h1{
         font-size: 30;

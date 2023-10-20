@@ -1,43 +1,51 @@
-@media screen and (max-width:1324px){
-    .feature-aboutus,
-    .search {
-        display: none;
-    }
-    .menu-box {
-        width: 500px;
-        height: 40px;
-        border:2px solid;
-        border-radius: 10px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        margin-top: 6%;
-        z-index:2;
-    }
-    .menu{
-        font-size: 25;
-    }
-    .right-navbar{
-        font-size: 8;
-    }
-    .logo {
-        width: 100px;
-        height: 60px;
-        top:2%;
-        left:2%;
-        position: absolute;
-        cursor: pointer;
-        z-index:2;
-    }
+@media screen and (max-width: 4000px) {
+  .navdropdown {
+    display: none;
+  }
 }
 
+@media screen and (max-width: 1324px) {
+  .feature-aboutus,
+  .search,
+  .navdropdown {
+    display: none;
+  }
+  .menu-box {
+    width: 500px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 6%;
+    z-index: 2;
+  }
+  .menu {
+    font-size: 25;
+  }
+  .right-navbar {
+    font-size: 8;
+  }
+  .logo {
+    width: 100px;
+    height: 60px;
+    top: 2%;
+    left: 2%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+  }
+}
 
-@media screen and (max-width:872px){
-    .feature-aboutus,
-    .feature-contactus {
-        display: none;
-    }
-    .menu-box {
+@media screen and (max-width: 872px) {
+  .feature-aboutus,
+  .feature-contactus,
+  .menu,
+  .menu-box {
+    display: none;
+  }
+  /* .menu-box {
         width: 280px;
         height: 40px;
         border:2px solid;
@@ -52,21 +60,34 @@
         font-size: 15;
         font-weight: bold;
         gap:6px;
-    }
-    .right-navbar{
-        font-size: 5;
-        gap:5%;
-        right:5%;
-    }
+    } */
+  .navdropdown {
+    display: block;
+    color: var(--white);
+    z-index: 2;
+  }
+  .dropdown {
+    background-color: var(--faded-white);
+    padding: 10px 50px;
+    border-radius: 10px;
+  }
+  .menu-navdropdown {
+    background-color: var(--faded-white);
+  }
 
-    .logo {
-        width: 80px;
-        height: 44px;
-        top:2%;
-        left:3%;
-        position: absolute;
-        cursor: pointer;
-        z-index:2;
-    }
+  .right-navbar {
+    font-size: 5;
+    gap: 5%;
+    right: 5%;
+  }
 
+  .logo {
+    width: 80px;
+    height: 44px;
+    top: 2%;
+    left: 3%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+  }
 }

@@ -19,7 +19,7 @@
     max-width: 1330px;
 }
 
-details{
+.category{
     padding: 0;
     margin:2% 0 0;
     border-radius: 10px;
@@ -33,7 +33,7 @@ details:not(:last-child) {
 }
 
 
-summary{
+.categorysummary{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,12 +160,9 @@ Main{
     margin: 0 0 5%;
 }
 
-
-
-
 /* This is the responsive coding section  */
 @media screen and (max-width:1324px){
-    summary{
+    .categorysummary{
         height: 50px ;
         width: 200px ;
     }
@@ -178,7 +175,7 @@ Main{
 }
 
 @media screen and (max-width:872px){
-    summary{
+    .categorysummary{
         height: 40px ;
         width: 100px ;
         font-size: 20px;
