@@ -20,22 +20,21 @@
     margin: 5% 0%;
 }
 
-summary{
+.info{
     width: 800px;
     height: 100px;
     padding: 0;
     margin: 0;
+    margin-bottom: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--faded-white);
     border-radius: 10px;
     font-size: 35px;
+
 }
 
-details:not(:last-child) {
-    margin-bottom: 35px;
-}
 
 .summary-text {
     background-color: var(--faded-white);
@@ -66,7 +65,7 @@ details:not(:last-child) {
     margin-bottom: 5%;
 }
 
-ul{
+.ulinfo{
     margin: 0;
     padding: 0;
 }
@@ -130,7 +129,7 @@ textarea{
         font-size: 25px ;
         
     }
-    summary{
+    .info{
         width: 400px;
         height: 80px;
         font-size: 35px;
@@ -138,7 +137,7 @@ textarea{
     .summary-text {
         font-size: 20px;
     }
-    ul{
+    .ulinfo{
         padding: 0 5%;
     }
 
@@ -157,7 +156,7 @@ textarea{
         font-size: 20px ;
         
     }
-    summary{
+    .info{
         width: 300px;
         height: 70px;
         font-size: 25px;
@@ -165,7 +164,7 @@ textarea{
     .summary-text {
         font-size: 20px;
     }
-    ul{
+    .ulinfo{
         padding: 0 5%;
     }
 

@@ -91,16 +91,6 @@
   color: var(--white);
 }
 
-.cart:hover {
-  color: var(--yellow);
-  cursor: pointer;
-}
-
-.profile:hover {
-  color: var(--yellow);
-  cursor: pointer;
-}
-
 /* this is the search funtion */
 
 .search {

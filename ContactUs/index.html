@@ -20,41 +20,59 @@
 <body>
     <header>
         <div class="section1">
-            <nav class="menu-box-container">
+          <nav class="menu-box-container">
             <div class="menu-box">
-                <ul class="menu">
-                    <li><a href="/Home/index.html">Home</a></li>
-                    <li><a href="/Games/index.html">Games</a></li>
-                    <li><a href="/AboutUs/index.html">About us</a></li>
-                    <li><a href="/ContactUs/index.html">Contact Us</a></li>
+              <ul class="menu">
+                <li><a href="/Home/index.html">Home</a></li>
+                <li><a href="/Games/index.html">Games</a></li>
+                <li><a href="/AboutUs/index.html">About us</a></li>
+                <li><a href="/ContactUs/index.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <details class="navdropdown">
+              <summary class="dropdown">Menu</summary>
+              <nav class="menu-navdropdown">
+                <ul class="menu-dropdown">
+                  <li class="dropdownli"><a href="/Home/index.html">Home</a></li>
+                  <li class="dropdownli"><a href="/Games/index.html">Games</a></li>
+                  <li class="dropdownli"><a href="/AboutUs/index.html">About us</a></li>
+                  <li class="dropdownli"><a href="/ContactUs/index.html">Contact Us</a></li>
                 </ul>
-            </div>
+              </nav>
+            </details>
             <div class="right-navbar">
-                <div class="search">
-                    <input type="checkbox" id="showSearch">
-                    <input type="search" />
-                    <label class="search-button" for="showSearch"><i class="fa-solid fa-magnifying-glass fa-4x" ></i></label>
-                </div> 
-                <a class="cart" href="/Cart/index.html"><i class="fa-solid fa-cart-shopping fa-4x" ></i></a>
-                <a class="profile" href=""><i class="fa-regular fa-user fa-4x" ></i></a>
+              <div class="search">
+                <input type="checkbox" id="showSearch" />
+                <input type="search" />
+                <label class="search-button" for="showSearch"
+                  ><i class="fa-solid fa-magnifying-glass fa-4x"></i
+                ></label>
+              </div>
+              <a class="cart" href="/Cart/index.html"
+                ><i class="fa-solid fa-cart-shopping fa-4x"></i
+              ></a>
+              <a class="profile" href=""
+                ><i class="fa-regular fa-user fa-4x"></i
+              ></a>
             </div>
-            </nav>
-            <div class="logo-container">
-                <img
-                class="logo"
-                src="Pictures/GameHub_Logo_new.png"
-                alt=" Gamehub Logo"/>
-            </div>
+          </nav>
+          <div class="logo-container">
+            <img
+              class="logo"
+              src="/Pictures/GameHub_Logo_new.png"
+              alt=" Gamehub Logo"
+            />
+          </div>
         </div>
-    </header>
+      </header>
 
     <main>
         <div class="contact-container">
             <div class="contactus">
                 <details>
-                    <summary> Orders and products </summary>
+                    <summary class="info"> Orders and products </summary>
                     <nav class= "summary-text">
-                        <ul>
+                        <ul class="ulinfo">
                             <li class="question"><a class="q-link" href="">I need help with an order i made </a> </li>
                             <li class="question"><a class="q-link" href="">I'd like information before buying</a></li>
                         </ul>
@@ -62,9 +80,9 @@
                 </details>
 
                 <details>
-                    <summary> Payment </summary>
+                    <summary class="info"> Payment </summary>
                     <nav class= "summary-text">
-                        <ul>
+                        <ul class="ulinfo">
                             <li class="question"><a class="q-link" href=""> Money was charged but no product received </a> </li>
                             <li class="question"><a class="q-link" href=""> I cannot complete the payment </a></li>
                             <li class="question"><a class="q-link" href=""> Find a charge you didn't make? </a></li>
@@ -73,9 +91,9 @@
                 </details>
 
                 <details>
-                    <summary> Account & security </summary>
+                    <summary class="info"> Account & security </summary>
                     <nav class= "summary-text">
-                        <ul>
+                        <ul class="ulinfo">
                             <li class="question"><a class="q-link" href=""> Having trouble logging-in to your account? </a> </li>
                             <li class="question"><a class="q-link" href=""> What data are you saving about me? </a></li>
                             <li class="question"><a class="q-link" href=""> How do i keep my account safe? </a></li>
@@ -86,7 +104,7 @@
                 </details>
 
                 <details>
-                    <summary> Other issues</summary>
+                    <summary class="info"> Other issues</summary>
                     <nav class= "summary-form">
                         <form>
                             <label for="email">Email:</label>

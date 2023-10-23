@@ -6,23 +6,43 @@
 
 @media screen and (max-width: 1324px) {
   .feature-aboutus,
-  .search,
-  .navdropdown {
+  .menu,
+  .menu-box{
     display: none;
   }
-  .menu-box {
+  /* .menu-box {
     width: 500px;
     height: 40px;
-    border: 2px solid;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 6%;
+    margin-top: 3%;
+    margin-left: -25%;
     z-index: 2;
+    background-color: transparent;
+    border: none;
   }
   .menu {
     font-size: 25;
+  } */
+  .navdropdown {
+    display: block;
+    color: var(--white);
+    z-index: 2;
+    margin-left: -25%;
+  }
+  .dropdown {
+    background-color: var(--faded-white);
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-top: 20%;
+  }
+  .menu-navdropdown {
+    background-color: var(--faded-white);
+    border-radius: 10px;
+    padding: 2% 0%;
+    margin-top: 3%;
+  }
+  .dropdownli{
+    text-align: center;
+    list-style: none;
   }
   .right-navbar {
     font-size: 8;
@@ -65,11 +85,17 @@
     display: block;
     color: var(--white);
     z-index: 2;
+    margin-left: -15% ;
+  }
+  .dropdownli{
+    text-align: center;
+    list-style: none;
   }
   .dropdown {
     background-color: var(--faded-white);
     padding: 10px 50px;
     border-radius: 10px;
+    margin-top: 20%;
   }
   .menu-navdropdown {
     background-color: var(--faded-white);
